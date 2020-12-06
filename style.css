@@ -1,0 +1,157 @@
+.window {
+	width: 400px;
+	height: 600px;
+	
+	background-color: black;
+	border: 5px solid #6d6c6c;
+	border-radius: 10px;
+}
+
+.image {
+	margin: 10px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+}
+
+/*Display начало*/
+.display {
+	position: relative;
+	margin: auto;
+	margin-top: 15px;
+	
+	width: 370px;
+	height: 500px;
+	
+	background-color: #6d6c6c;
+	border: 2px solid gray;
+}
+
+
+/*информация пользователя начало*/
+.header {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	height: 60px;
+	background-color: #f9b068;
+}
+/*информация пользователя конец*/
+
+
+/*окно сообщении начало*/
+.main {
+	margin-top: 70px;
+	overflow: auto;
+	height: 360px;
+}
+
+.main .user-one {
+	border: 1px solid black;
+	width: 270px;
+	margin: 10px;
+	border-radius: 10px;
+	background-color: #535353;
+}
+
+.main .user-two {
+	border: 1px solid black;
+	width: 270px;
+	margin: 10px;
+	margin-left: 70px;
+	border-radius: 10px;
+	background-color: #4d9b82;
+}
+
+.main p {
+	margin: 0;
+	padding: 3px 0 3px 10px;
+	color: #43f6d4;
+}
+
+.main .text {
+	box-sizing: content-box;
+	padding: 5px;
+	margin: auto;
+	width: 95%;
+	background-color: #535353;
+	border-radius: 10px;
+	color: white;
+}
+
+.main .you {
+	background-color: #4d9b82;
+}
+/*окно сообщении конец*/
+
+
+/*ввод сообщения начало*/
+.footer {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	
+	height: 70px;
+	background-color: #f9b068;
+}
+
+.footer .messeng {
+	width: 230px;
+	font-size: 20px;
+}
+
+.footer .btn {
+	margin-left: 5px;
+	border-radius: 20px;
+	height: 30px;
+	outline: none;
+}
+
+.footer .btn:hover {
+	background-color: #d0f968;
+}
+.footer .btn:active {
+	background-color: #ff6df2;
+}
+/*ввод сообщения конец*/
+/*Display начало*/
+
+
+/*кнопки начало*/
+.btn-more {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px;
+}
+
+.line {
+	background-color: gray;
+	border: 2px solid black;
+	width: 40px;
+	height: 5px;
+}
+
+.circle {
+	background-color: gray;
+	border: 2px solid black;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.square {
+	background-color: gray;
+	border: 2px solid black;
+	width: 40px;
+	height: 40px;
+}
+/*кнопки начало*/
