@@ -50,7 +50,7 @@
 	height: 360px;
 }
 
-.main .user-one {
+.user-one {
 	border: 1px solid black;
 	width: 270px;
 	margin: 10px;
@@ -58,7 +58,7 @@
 	background-color: #535353;
 }
 
-.main .user-two {
+.user-two {
 	border: 1px solid black;
 	width: 270px;
 	margin: 10px;
@@ -73,7 +73,7 @@
 	color: #43f6d4;
 }
 
-.main .text {
+.text {
 	box-sizing: content-box;
 	padding: 5px;
 	margin: auto;

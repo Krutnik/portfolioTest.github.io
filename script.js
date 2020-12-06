@@ -14,7 +14,8 @@ function createElem() {
 	newMesseng.appendChild(yourName);
 	
 	textNewMesseng = document.createElement('div');
-	textNewMesseng.classList.add('.text');
+	textNewMesseng.classList.add('text');
+	textNewMesseng.classList.add('you');
 	textNewMesseng.textContent = textMesseng.value;
 	newMesseng.appendChild(textNewMesseng);
 	
@@ -22,5 +23,5 @@ function createElem() {
 } 
 
 btnSendMesseng.onclick = function() {
-	mainDisplay.appendChild(newMesseng());
+	mainDisplay.appendChild(createElem());
 }
